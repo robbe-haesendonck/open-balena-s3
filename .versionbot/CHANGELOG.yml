@@ -1,4 +1,40 @@
 - commits:
+    - subject: Update open-balena-base to 13.0.2
+      hash: e2d26d3b97c09bacfe5491048cac3ce647c53d2d
+      body: |
+        Update open-balena-base from 13.0.0 to 13.0.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: ab77
+      nested:
+        - commits:
+            - subject: Stage stack global environment
+              hash: 1e11429dd099dbdb92dec93d11edd715fb640526
+              body: |
+                * cache environment on volume
+                * read hosts, tokens and sentry config from environment
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: ab77
+              nested: []
+          version: open-balena-base-13.0.2
+          date: 2021-11-19T02:02:07.272Z
+        - commits:
+            - subject: Install python3 for node-gyp 8.x which is used by npm 8
+              hash: 9b42d099d82c8c8249aef3a38ecacbcdb501c15f
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Pagan Gazzard
+              nested: []
+          version: open-balena-base-13.0.1
+          date: 2021-11-01T16:33:58.305Z
+  version: 2.13.1
+  date: 2021-11-30T00:57:16.899Z
+- commits:
     - subject: Update open-balena-base to 13.0.0
       hash: 78fc6112b09f0befc666930c50b757a279865405
       body: |
